@@ -3,5 +3,5 @@
 0|31|bottom|( custom/power custom/cliphist custom/wbar custom/mode custom/wallchange ) ( wlr/taskbar custom/spotify ) |( idle_inhibitor clock )|( tray ) ( backlight network bluetooth pulseaudio pulseaudio#microphone battery )
 0|32|top||( custom/power ) ( battery ) ( tray ) ( wlr/taskbar idle_inhibitor clock ) ( custom/cliphist ) ( custom/wbar ) ( custom/wallchange ) ( custom/mode )|
 0|31|bottom|( cpu memory custom/gpuinfo ) ( idle_inhibitor clock ) ( hyprland/workspaces )|( wlr/taskbar )|( backlight network bluetooth pulseaudio pulseaudio#microphone custom/updates battery ) ( tray ) ( custom/wallchange custom/mode custom/wbar custom/cliphist custom/power )
-1|29|top|( wlr/taskbar mpris )|( idle_inhibitor battery clock )|( backlight network bluetooth pulseaudio pulseaudio#microphone custom/updates ) ( tray ) ( custom/wallchange custom/mode custom/wbar custom/cliphist custom/power )
-0|28|bottom|( custom/power custom/cliphist custom/wbar custom/mode custom/wallchange ) ( idle_inhibitor clock custom/spotify )|( wlr/taskbar )|( tray ) ( backlight network bluetooth pulseaudio pulseaudio#microphone battery )
+0|29|top|( wlr/taskbar mpris )|( idle_inhibitor battery clock )|( backlight network bluetooth pulseaudio pulseaudio#microphone custom/updates ) ( tray ) ( custom/wallchange custom/mode custom/wbar custom/cliphist custom/power )
+1|28|bottom|( custom/power custom/cliphist custom/wbar custom/mode custom/wallchange ) ( idle_inhibitor clock custom/spotify )|( wlr/taskbar )|( tray ) ( backlight network bluetooth pulseaudio pulseaudio#microphone battery )
