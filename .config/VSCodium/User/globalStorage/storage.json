@@ -4,30 +4,75 @@
         "workspaces": {
             "file:///home/inoribea": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1709364494738": "__default__profile__",
+            "1709364561659": "__default__profile__",
+            "1709364765735": "__default__profile__",
+            "1709367235903": "__default__profile__",
+            "1709367959444": "__default__profile__",
+            "1709367974709": "__default__profile__",
+            "1709368039525": "__default__profile__",
+            "1709368096401": "__default__profile__",
+            "1709369710502": "__default__profile__",
+            "1709369764004": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "b776516b6ce5e99ae36eab81ed66817f44d1e7086e42a7e588e99c51a5fd852b",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
+        "folders": [],
+        "emptyWindows": [
             {
-                "folderUri": "file:///home/inoribea"
+                "backupFolder": "1709364494738"
+            },
+            {
+                "backupFolder": "1709364505707"
+            },
+            {
+                "backupFolder": "1709364561659",
+                "remoteAuthority": "ssh-remote+47.99.106.212"
+            },
+            {
+                "backupFolder": "1709364765735"
+            },
+            {
+                "backupFolder": "1709367235903",
+                "remoteAuthority": "ssh-remote+47.99.106.212"
+            },
+            {
+                "backupFolder": "1709367959444"
+            },
+            {
+                "backupFolder": "1709367974709",
+                "remoteAuthority": "ssh-remote+47.99.106.212"
+            },
+            {
+                "backupFolder": "1709368039525"
+            },
+            {
+                "backupFolder": "1709368096401",
+                "remoteAuthority": "ssh-remote+47.99.106.212"
+            },
+            {
+                "backupFolder": "1709369710502",
+                "remoteAuthority": "ssh-remote+47.99.106.212"
+            },
+            {
+                "backupFolder": "1709369764004"
             }
-        ],
-        "emptyWindows": []
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/inoribea",
-            "backupPath": "/home/inoribea/.config/VSCodium/Backups/0a0fd3bc7ea53297f7cece96d98c719c",
+            "backupPath": "/home/inoribea/.config/VSCodium/Backups/1709369764004",
             "uiState": {
                 "mode": 0,
-                "x": 10,
-                "y": 91,
-                "width": 1260,
-                "height": 671
+                "x": 128,
+                "y": 0,
+                "width": 1024,
+                "height": 720
             }
         },
         "openedWindows": []
@@ -91,6 +136,20 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/inoribea/TTS-for-GPT-soVITS/1%20%E4%B8%80%E9%94%AE%E6%9B%B4%E6%96%B0%E6%9C%AC%E9%A1%B9%E7%9B%AE%E6%89%80%E9%9C%80%E8%A6%81%E7%9A%84%E4%BE%9D%E8%B5%96.bat",
+                                        "path": "/home/inoribea/TTS-for-GPT-soVITS/1 一键更新本项目所需要的依赖.bat",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/TTS-for-GPT-soVITS/1 一键更新本项目所需要的依赖.bat"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openRecent",
                                     "label": "更多(&&M)..."
                                 },
@@ -124,11 +183,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "保存(&&S)"
+                        "label": "保存(&&S)",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "另存为(&&A)..."
+                        "label": "另存为(&&A)...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -143,28 +204,6 @@
                         "label": "共享",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "issue.copyGithubPermalink",
-                                    "label": "Copy GitHub Permalink"
-                                },
-                                {
-                                    "id": "issue.copyMarkdownGithubPermalink",
-                                    "label": "Copy GitHub Permalink as Markdown"
-                                },
-                                {
-                                    "id": "issue.copyGithubHeadLink",
-                                    "label": "Copy GitHub Head Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "导出配置文件(默认)..."
@@ -286,15 +325,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "还原文件(&&V)"
+                        "label": "还原文件(&&V)",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "关闭编辑器(&&C)"
-                    },
-                    {
-                        "id": "workbench.action.closeFolder",
-                        "label": "关闭文件夹(&&F)"
+                        "label": "关闭编辑器(&&C)",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -331,22 +368,6 @@
                         "label": "复制(&&C)"
                     },
                     {
-                        "id": "submenuitem.MenubarCopy",
-                        "label": "复制为",
-                        "submenu": {
-                            "items": [
-                                {
-                                    "id": "issue.copyGithubPermalink",
-                                    "label": "Copy GitHub Permalink"
-                                },
-                                {
-                                    "id": "issue.copyMarkdownGithubPermalink",
-                                    "label": "Copy GitHub Permalink as Markdown"
-                                }
-                            ]
-                        }
-                    },
-                    {
                         "id": "editor.action.clipboardPasteAction",
                         "label": "粘贴(&&P)"
                     },
@@ -355,11 +376,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "查找(&&F)"
+                        "label": "查找(&&F)",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "替换(&&R)"
+                        "label": "替换(&&R)",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -707,6 +730,13 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "向右拆分(&&R)"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "在组中拆分(&&G)"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1340,11 +1370,6 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
-            "workbench.action.closeFolder": {
-                "label": "Ctrl+K F",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k f"
-            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1492,6 +1517,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1510,9 +1540,8 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G G",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+shift+g g"
+                "label": "Ctrl+Shift+G",
+                "userSettingsLabel": "ctrl+shift+g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
