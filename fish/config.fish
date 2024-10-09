@@ -18,6 +18,9 @@ end
 # Alias
 alias fetch="fastfetch"
 alias lol="lolcat"
+alias ctloff="sudo systemctl disable --now"
+alias ctlon="sudo systemctl enable --now"
+alias ctlr="sudo systemctl enable --now"
 alias linkwd="sudo mount --bind /home/inoribea/Documents /home/inoribea/.local/share/waydroid/data/media/0/Documents"
 alias uphyde="cd ~/HyDE/Scripts
 git pull
@@ -31,8 +34,10 @@ sudo systemctl start systemd-resolved"
 alias dnson="sudo systemctl stop systemd-resolved
 sleep 0.5
 sudo pkill -f systemd-resolved
+sleep 0.5
 sudo systemctl start dnsproxy"
 alias lsp="sudo lsof -nP -iTCP -sTCP:LISTEN"
+alias tson="sudo tailscale up --ssh=true --accept-dns=false"
 # Handy change dir shortcuts
 abbr .. 'cd ..'
 abbr ... 'cd ../..'
