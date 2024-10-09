@@ -1,5 +1,5 @@
 cd /home/inoribea/dotconfig
-echo pswd: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
+echo pswd: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
 git remote set-url origin "https://inoribea@github.com/inoribea/dotconfig.git"
 sleep 1
 git add .
