@@ -1,0 +1,32 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH 配置][Aliyun]
+hostname=47.99.106.212
+identifier=Aliyun
+importedFromSshConfig=true
+port=
+profileName=
+sshkey=
+useSshConfig=true
+username=root
+
+[SSH 配置][Beryl]
+hostname=192.168.8.1
+identifier=Beryl
+importedFromSshConfig=true
+port=
+profileName=Light
+sshkey=
+useSshConfig=true
+username=root
+
+[SSH 配置][github.com]
+hostname=github.com
+identifier=github.com
+importedFromSshConfig=true
+port=443
+profileName=
+sshkey=
+useSshConfig=true
+username=git

@@ -273,7 +273,7 @@ WindowUnderCursorScreenShot=Meta+Ctrl+Print\tMeta+Ctrl+F12
 [services][systemsettings.desktop]
 _launch=Meta+I
 
-[services][vivaldi-stable.desktop]
+[services][zen-alpha.desktop]
 _launch=Meta+F
 
 [yakuake]
