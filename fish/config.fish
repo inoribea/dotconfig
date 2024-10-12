@@ -16,7 +16,7 @@ if status is-interactive
 end
 
 # Alias
-alias fetch="fastfetch"
+alias ff="fastfetch"
 alias lol="lolcat"
 alias ctloff="sudo systemctl disable --now"
 alias ctlon="sudo systemctl enable --now"
@@ -38,6 +38,7 @@ sleep 0.5
 sudo systemctl start dnsproxy"
 alias lsp="sudo lsof -nP -iTCP -sTCP:LISTEN"
 alias tson="sudo tailscale up --ssh=true --accept-dns=false"
+alias timeck="chronyc -N 'sources -a -v'"
 # Handy change dir shortcuts
 abbr .. 'cd ..'
 abbr ... 'cd ../..'
