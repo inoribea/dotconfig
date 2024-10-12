@@ -38,7 +38,7 @@ sleep 0.5
 sudo systemctl start dnsproxy"
 alias lsp="sudo lsof -nP -iTCP -sTCP:LISTEN"
 alias tson="sudo tailscale up --ssh=true --accept-dns=false"
-alias timeck="chronyc -N 'sources -a -v'"
+alias timeck="chronyc tracking"
 # Handy change dir shortcuts
 abbr .. 'cd ..'
 abbr ... 'cd ../..'
