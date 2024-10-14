@@ -1,7 +1,7 @@
 #set -g fish_greeting
 
 function fish_greeting
-     pokemon-colorscripts -r
+     pokeget random
 end
 
 function starship_transent_rmpt_func
