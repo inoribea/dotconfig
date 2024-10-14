@@ -14,8 +14,9 @@ Version=202
 ViewPropsTimestamp=2023,4,26,16,58,48.324
 
 [IconsMode]
+IconSize=64
 MaximumTextLines=1
-PreviewSize=112
+PreviewSize=208
 
 [InformationPanel]
 dateFormat=ShortFormat
