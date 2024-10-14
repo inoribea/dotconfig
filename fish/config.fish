@@ -17,7 +17,7 @@ end
 
 # Alias
 alias ff="pokeget random --hide-name | fastfetch -c /home/inoribea/.config/fastfetch/ff.jsonc --file-raw -"
-alias ffh="fastfetch"
+alias fff="fastfetch"
 alias lol="lolcat"
 alias ctloff="sudo systemctl disable --now"
 alias ctlon="sudo systemctl enable --now"
