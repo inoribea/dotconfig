@@ -13,8 +13,13 @@
             "key": "  "
         },
         {
-            "type": "custom",
-            "format": "┌──────────────────────────────────────────┐"
+            "type": "Separator",
+        },
+        {
+            "type": "Bootmgr",
+            "key": "   Boot",
+            "format": "{2} ({4})",
+            "keyColor": "red"
         },
         {
             "type": "os",
@@ -27,18 +32,13 @@
             "keyColor": "red"
         },
         {
-            "type": "packages",
-            "key": "   Packages",
-            "keyColor": "green"
-        },
-        {
             "type": "display",
             "key": "   Display",
             "keyColor": "green"
         },
         {
             "type": "shell",
-            "key": "  󰈺  shell",
+            "key": "  󰈺 shell",
             "keyColor": "green"
         },
         {
@@ -52,8 +52,23 @@
             "keyColor": "yellow"
         },
         {
-            "type": "custom",
-            "format": "└──────────────────────────────────────────┘"
+            "type": "TerminalFont",
+            "key": "   TerminalFont",
+            "format": "{1}",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "opengl",
+            "key": "  󰂩 OpenGL",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "font",
+            "key": "    Font",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "Separator"
         },
         "break",
         {
@@ -61,8 +76,7 @@
             "format": "\u001b[36m   : VLT-W50"
         },
         {
-            "type": "custom",
-            "format": "┌──────────────────────────────────────────┐"
+            "type": "Separator"
         },
         {
             "type": "cpu",
@@ -83,11 +97,6 @@
             "keyColor": "magenta"
         },
         {
-             "type": "wifi",
-            "key": "   wifi",
-            "keyColor": "yellow"
-        },
-        {
              "type": "memory",
             "key": "  ﬙ Memory",
             "keyColor": "yellow"
@@ -98,19 +107,17 @@
             "keyColor": "yellow"
         },
         {
-            "type": "command",
-            "key": "  󱦟 OS Age ",
-            "keyColor": "31",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+             "type": "BluetoothRadio",
+            "key": "  󰂯 Bluetooth",
+            "keyColor": "yellow"
         },
         {
-            "type": "uptime",
-            "key": "  󱫐 Uptime ",
-            "keyColor": "red"
+             "type": "wifi",
+            "key": "  󰖩 wifi",
+            "keyColor": "yellow"
         },
         {
-            "type": "custom",
-            "format": "└──────────────────────────────────────────┘"
+            "type": "Separator"
         },
 	{
             "type": "colors",
