@@ -16,7 +16,7 @@ if status is-interactive
 end
 
 # Alias
-alias ff="fastfetch"
+alias ff="pokeget random --hide-name | fastfetch --file-raw -"
 alias lol="lolcat"
 alias ctloff="sudo systemctl disable --now"
 alias ctlon="sudo systemctl enable --now"
