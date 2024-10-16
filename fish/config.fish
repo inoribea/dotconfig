@@ -16,6 +16,7 @@ if status is-interactive
 end
 
 # Alias
+alias proxy="proxychains4 -q fish"
 alias ff="pokeget random --hide-name | fastfetch -c /home/inoribea/.config/fastfetch/ff.jsonc --file-raw -"
 alias fff="fastfetch"
 alias lol="lolcat"
