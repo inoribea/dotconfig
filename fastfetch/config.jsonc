@@ -44,6 +44,7 @@
         {
             "type": "terminal",
             "key": "   Terminal",
+            "format": "{1} {6}",
             "keyColor": "yellow"
         },
         {
@@ -59,7 +60,7 @@
         },
         {
             "type": "font",
-            "key": "    Font",
+            "key": "   Font",
             "keyColor": "yellow"
         },
         "break",
