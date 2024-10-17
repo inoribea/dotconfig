@@ -37,11 +37,6 @@
             "keyColor": "green"
         },
         {
-            "type": "shell",
-            "key": "  󰈺 shell",
-            "keyColor": "green"
-        },
-        {
             "type": "wm",
             "key": "   WM",
             "keyColor": "yellow"
@@ -66,9 +61,6 @@
             "type": "font",
             "key": "    Font",
             "keyColor": "yellow"
-        },
-        {
-            "type": "Separator"
         },
         "break",
         {
