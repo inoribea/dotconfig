@@ -2,6 +2,8 @@
 
 function fish_greeting
      pokeget random
+     sleep 0.5
+     clear
 end
 
 function starship_transent_rmpt_func
