@@ -120,7 +120,7 @@ smallestReadableFont=CaskaydiaMono Nerd Font,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Maple Mono SC NF,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
-Theme=Tela-circle-black
+Theme=Will be overwritten by themeswitch
 
 [KDE]
 LookAndFeelPackage=org.manjaro.breath-dark.desktop
