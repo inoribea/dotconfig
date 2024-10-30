@@ -18,6 +18,8 @@ if status is-interactive
 end
 
 # Alias
+alias chags="cp -f /home/inoribea/dotconfig/hypr/ags.conf /home/inoribea/.config/hypr/hyprland.conf&&exit"
+alias chhyde="cp -f /home/inoribea/dotconfig/hypr/hyde.conf /home/inoribea/.config/hypr/hyprland.conf&&exit"
 alias proxy="proxychains4 -q fish"
 alias ff="pokeget random --hide-name | fastfetch -c /home/inoribea/.config/fastfetch/ff.jsonc --file-raw -"
 alias fff="fastfetch"
@@ -25,7 +27,6 @@ alias lol="lolcat"
 alias ctloff="sudo systemctl disable --now"
 alias ctlon="sudo systemctl enable --now"
 alias ctlr="sudo systemctl restart --now"
-alias linkwd="sudo mount --bind /home/inoribea/Documents /home/inoribea/.local/share/waydroid/data/media/0/Documents"
 alias uphyde="cd ~/HyDE/Scripts
 git pull
 ./install.sh -r
