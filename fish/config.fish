@@ -24,9 +24,9 @@ alias proxy="proxychains4 -q fish"
 alias ff="pokeget random --hide-name | fastfetch -c /home/inoribea/.config/fastfetch/ff.jsonc --file-raw -"
 alias fff="fastfetch"
 alias lol="lolcat"
-alias ctloff="sudo systemctl disable --now"
-alias ctlon="sudo systemctl enable --now"
-alias ctlr="sudo systemctl restart --now"
+alias scoff="sudo systemctl disable --now"
+alias scon="sudo systemctl enable --now"
+alias scr="sudo systemctl restart --now"
 alias uphyde="cd ~/HyDE/Scripts
 git pull
 ./install.sh -r
