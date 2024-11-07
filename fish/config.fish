@@ -33,8 +33,8 @@ git pull
 cp -rf /home/inoribea/dotconfig/* /home/inoribea/.config"
 alias upags="cd ~/dots-hyprland
 git pull
-./update-ags.sh
-"
+sh update-dots.sh
+cp -rf /home/inoribea/dotconfig/* /home/inoribea/.config"
 alias upconf="sh /home/inoribea/dotconfig/dotconfig.sh"
 alias dnsoff="sudo systemctl stop dnsproxy
 sleep 0.5
