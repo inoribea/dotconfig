@@ -488,6 +488,13 @@ if status is-interactive
 end
 
 # Alias
+alias agsex="cp -f /home/inoribea/dots-hyprland/.config/ags/config.js /home/inoribea/.config/ags/config.js
+cp -f /home/inoribea/dots-hyprland/.config/ags/scss/main.scss /home/inoribea/.config/ags/scss/main.scss
+pkill dunst
+pkill ags;ags &"
+alias agsmx="cp -f /home/inoribea/dotconfig/ags/config.js /home/inoribea/.config/ags/config.js
+cp -f /home/inoribea/dotconfig/ags/scss/main.scss /home/inoribea/.config/ags/scss/main.scss
+pkill ags;ags &"
 alias chags="cp -f /home/inoribea/dotconfig/hypr/ags.conf /home/inoribea/.config/hypr/hyprland.conf&&hyprctl reload && pkill waybar && dunst
 gsettings set org.gnome.desktop.interface font-name 'MapleMonoSCNF-Regular 12'"
 alias chhyde="cp -f /home/inoribea/dotconfig/hypr/hyde.conf /home/inoribea/.config/hypr/hyprland.conf&&hyprctl reload && pkill ags"
