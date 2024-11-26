@@ -144,6 +144,8 @@ const BatteryModule = () => Stack({
                 hpack: 'center',
                 className: 'spacing-h-4 txt-onSurfaceVariant',
                 children: [
+                    BarGroup({ child: Utilities() }),
+                    BarGroup({ child: BarBattery() }),
                     MaterialIcon('device_thermostat', 'small'),
                     Label({
                         label: 'Weather',
