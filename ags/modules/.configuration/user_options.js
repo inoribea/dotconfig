@@ -130,7 +130,7 @@ let configOptions = {
         'dateFormat': "%d/%m", // On notif time
     },
     'weather': {
-        'city': "Shanghai",
+        'city': "shanghai",
         'preferredUnit': "C", // Either C or F
     },
     'workspaces': {
