@@ -7,6 +7,8 @@ set -g  fish_greeting
     sleep 0.5
     clear
 
+    wthrr
+
 function starship_transent_rmpt_func
   starship module time
 end
