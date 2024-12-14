@@ -21,8 +21,7 @@ if status is-interactive
 end
 
 # Alias
-alias chags="cp -f /home/inoribea/dotconfig/hypr/ags.conf /home/inoribea/.config/hypr/hyprland.conf&&hyprctl reload && pkill waybar
-gsettings set org.gnome.desktop.interface font-name 'MapleMonoSCNF-Regular 12'"
+alias chags="cp -f /home/inoribea/dotconfig/hypr/ags.conf /home/inoribea/.config/hypr/hyprland.conf&&hyprctl reload && pkill waybar && gsettings set org.gnome.desktop.interface font-name 'MapleMonoSCNF-Regular 12'"
 alias chhyde="cp -f /home/inoribea/dotconfig/hypr/hyde.conf /home/inoribea/.config/hypr/hyprland.conf&&hyprctl reload && pkill ags"
 alias proxy="proxychains4 -q fish"
 alias ff="pokeget random --hide-name | fastfetch -c /home/inoribea/.config/fastfetch/ff.jsonc --file-raw -"
