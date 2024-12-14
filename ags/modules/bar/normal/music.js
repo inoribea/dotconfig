@@ -148,14 +148,7 @@ export default () => {
                 label.label = getString('No media');
         }),
     })
-    const musicStuff = Box({
-        className: 'spacing-h-10',
-        hexpand: true,
-        children: [
-            playingState,
-            trackTitle,
-        ]
-    })
+
     const SystemResourcesOrCustomModule = () => {
         // Check if $XDG_CACHE_HOME/ags/user/scripts/custom-module-poll.sh exists
         if (GLib.file_test(CUSTOM_MODULE_CONTENT_SCRIPT, GLib.FileTest.EXISTS)) {
@@ -213,7 +206,6 @@ export default () => {
             children: [
                 SystemResourcesOrCustomModule(),
                 EventBox({
-                    child: BarGroup({ child: musicStuff }),
                     onPrimaryClick: () => showMusicControls.setValue(!showMusicControls.value),
                     onSecondaryClick: () => execAsync(['bash', '-c', 'playerctl next || playerctl position `bc <<< "100 * $(playerctl metadata mpris:length) / 1000000 / 100"` &']).catch(print),
                     onMiddleClick: () => execAsync('playerctl play-pause').catch(print),
