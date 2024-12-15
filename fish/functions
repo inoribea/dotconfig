@@ -1,11 +1,29 @@
 function chags
     cp -f /home/inoribea/dotconfig/hypr/ags.conf /home/inoribea/.config/hypr/hyprland.conf
     hyprctl reload
-    pkill waybar
+    pkill waybar && dunst
     gsettings set org.gnome.desktop.interface font-name 'MapleMonoSCNF-Regular 12'
 end
 
 function chhyde
     cp -f /home/inoribea/dotconfig/hypr/hyde.conf /home/inoribea/.config/hypr/hyprland.conf
     hyprctl reload && pkill ags
+end
+
+function uphyde
+    cd ~/HyDE/Scripts
+    git pull
+    ./install.sh -r
+    cp -rf /home/inoribea/dotconfig/* /home/inoribea/.config
+    cp -f /home/inoribea/dotconfig/hypr/hyde.conf /home/inoribea/.config/hypr/hyprland.conf
+    pkill ags
+end
+
+function upags
+    cd ~/dots-hyprland
+    git pull
+    sh update-dots.sh
+    cp -rf /home/inoribea/dotconfig/* /home/inoribea/.config
+    cp -f /home/inoribea/dotconfig/hypr/ags.conf /home/inoribea/.config/hypr/hyprland.conf
+    pkill waybar && dunst
 end

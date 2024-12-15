@@ -28,14 +28,6 @@ alias lol="lolcat"
 alias scoff="sudo systemctl disable --now"
 alias scon="sudo systemctl enable --now"
 alias scr="sudo systemctl restart --now"
-alias uphyde="cd ~/HyDE/Scripts
-git pull
-./install.sh -r
-cp -rf /home/inoribea/dotconfig/* /home/inoribea/.config"
-alias upags="cd ~/dots-hyprland
-git pull
-sh update-dots.sh
-cp -rf /home/inoribea/dotconfig/* /home/inoribea/.config"
 alias upconf="sh /home/inoribea/dotconfig/dotconfig.sh"
 alias dnsoff="sudo systemctl stop dnsproxy
 sleep 0.5
