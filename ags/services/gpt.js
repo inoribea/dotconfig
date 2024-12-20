@@ -7,17 +7,17 @@ import Soup from 'gi://Soup?version=3.0';
 import { fileExists } from '../modules/.miscutils/files.js';
 
 const PROVIDERS = Object.assign({ // There's this list hmm https://github.com/zukixa/cool-ai-stuff/
-    'ollama': {
-        'name': 'Claude (sonnet-3.5)',
+    'openai': {
+        'name': 'Claude',
         'logo_name': 'ollama-symbolic',
         'description': getString('ClaudeAI from Anthropic.'),
         'base_url': 'https://api.nekoapi.com',
-        'key_get_url': 'https://api.nekoapi.com/api_keys',
+        'key_get_url': 'https://api.nekoapi.com',
         'key_file': 'claude_key.txt',
-        'model': 'claude-3-5-sonnet-all',
+        'model': 'claude-3-5-sonnet-20241022',
     },
-    'openai': {
-        'name': 'Kimi(Moonshot)',
+    'ollama': {
+        'name': 'Kimi',
         'logo_name': 'openrouter-symbolic',
         'description': getString('Official Kimi API.'),
         'base_url': 'https://api.moonshot.cn/v1/chat/completions',
@@ -26,7 +26,7 @@ const PROVIDERS = Object.assign({ // There's this list hmm https://github.com/zu
         'model': 'moonshot-v1-auto',
     },
     'openrouter': {
-        'name': 'Deepseek (deepseek-V2.5)',
+        'name': 'Deepseek',
         'logo_name': 'ai-oxygen-symbolic',
         'description': getString('A Code And Chat for LLMs'),
         'base_url': 'https://api.deepseek.com/v1/chat/completions',
@@ -38,8 +38,8 @@ const PROVIDERS = Object.assign({ // There's this list hmm https://github.com/zu
         'name': 'OpenAI',
         'logo_name': 'openai-symbolic',
         'description': getString('Official OpenAI API.\nPricing: Free for the first $5 or 3 months, whichever is less.'),
-        'base_url': 'https://api.nekoapi.com/v1/chat/completions',
-        'key_get_url': 'https://api.nekoapi.com/api-keys',
+        'base_url': 'https://api.nekoapi.com',
+        'key_get_url': 'https://api.nekoapi.com',
         'key_file': 'openai_key.txt',
         'model': 'gpt-4o-mini',
     },
