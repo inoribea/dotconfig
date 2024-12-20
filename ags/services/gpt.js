@@ -18,7 +18,7 @@ const PROVIDERS = Object.assign({ // There's this list hmm https://github.com/zu
     },
     'openai': {
         'name': 'Kimi(Moonshot)',
-        'logo_name': 'ollama-symbolic',
+        'logo_name': 'openrouter-symbolic',
         'description': getString('Official Kimi API.'),
         'base_url': 'https://api.moonshot.cn/v1/chat/completions',
         'key_get_url': 'https://platform.moonshot.cn/console/api-keys',
