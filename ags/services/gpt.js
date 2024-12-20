@@ -7,23 +7,23 @@ import Soup from 'gi://Soup?version=3.0';
 import { fileExists } from '../modules/.miscutils/files.js';
 
 const PROVIDERS = Object.assign({ // There's this list hmm https://github.com/zukixa/cool-ai-stuff/
+    'ollama': {
+        'name': 'Claude (sonnet-3.5)',
+        'logo_name': 'ollama-symbolic',
+        'description': getString('ClaudeAI from Anthropic.'),
+        'base_url': 'https://api.nekoapi.com',
+        'key_get_url': 'https://api.nekoapi.com/api_keys',
+        'key_file': 'claude_key.txt',
+        'model': 'claude-3-5-sonnet-all',
+    },
     'openai': {
         'name': 'Kimi(Moonshot)',
-        'logo_name': 'openai-symbolic',
+        'logo_name': 'ollama-symbolic',
         'description': getString('Official Kimi API.'),
         'base_url': 'https://api.moonshot.cn/v1/chat/completions',
         'key_get_url': 'https://platform.moonshot.cn/console/api-keys',
         'key_file': 'kimi_key.txt',
         'model': 'moonshot-v1-auto',
-    },
-    'ollama': {
-        'name': 'Ollama (Llama 3)',
-        'logo_name': 'ollama-symbolic',
-        'description': getString('Official Ollama API.\nPricing: Free.'),
-        'base_url': 'http://localhost:11434/chat/completions',
-        'key_get_url': 'it\'s just ollama',
-        'key_file': 'ollama_key.txt',
-        'model': 'llama3:instruct',
     },
     'openrouter': {
         'name': 'Deepseek (deepseek-V2.5)',
@@ -34,14 +34,14 @@ const PROVIDERS = Object.assign({ // There's this list hmm https://github.com/zu
         'key_file': 'deep_key.txt',
         'model': 'deepseek-chat',
     },
-    'zukijourney': {
-        'name': 'zukijourney (GPT-3.5)',
-        'logo_name': 'ai-zukijourney',
-        'description': getString("An API from @zukixa on GitHub.\nNote: Keys are IP-locked so it's buggy sometimes\nPricing: Free: 10/min, 800/day.\nRequires you to join their Discord for a key"),
-        'base_url': 'https://zukijourney.xyzbot.net/v1/chat/completions',
-        'key_get_url': 'https://discord.com/invite/Y4J6XXnmQ6',
-        'key_file': 'zuki_key.txt',
-        'model': 'gpt-3.5-turbo',
+    'oxygen4o': {
+        'name': 'OpenAI',
+        'logo_name': 'openai-symbolic',
+        'description': getString('Official OpenAI API.\nPricing: Free for the first $5 or 3 months, whichever is less.'),
+        'base_url': 'https://api.nekoapi.com/v1/chat/completions',
+        'key_get_url': 'https://api.nekoapi.com/api-keys',
+        'key_file': 'openai_key.txt',
+        'model': 'gpt-4o-mini',
     },
 }, userOptions.sidebar.ai.extraGptModels)
 
@@ -268,7 +268,6 @@ class GPTService extends Service {
 }
 
 export default new GPTService();
-
 
 
 
